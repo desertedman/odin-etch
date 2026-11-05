@@ -8,5 +8,8 @@
 }
 
 .item {
+  /* fix inconsistent sizing of grid; incorporates border/padding INTO width */
+  box-sizing: border-box;
   border: thin solid black;
+  margin: 0;
 }
